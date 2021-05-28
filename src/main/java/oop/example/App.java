@@ -13,8 +13,9 @@ public class App
         System.out.println("Who said it? ");
         String userAuthor = input.nextLine();
 
-        System.out.printf("What is the quote? %s%nWho said it? %s%n%s says, \"%s\"%n",
-                userQuote, userAuthor, userAuthor, userQuote);
+        System.out.println("What is the quote? " + userQuote +
+                "\nWho said it? " + userAuthor +
+                "\n" + userAuthor + " says, \"" + userQuote + "\"\n");
 
 
     }
